@@ -95,7 +95,8 @@ h1,h2,h3,h4,h5{
 
 .hero{
 
-    height:100vh;
+    min-height:100vh;
+    height:auto;
 
     background:
     linear-gradient(rgba(8,12,20,.82),rgba(8,12,20,.72)),
@@ -106,6 +107,8 @@ h1,h2,h3,h4,h5{
 
     display:flex;
     align-items:center;
+
+    padding:140px 0 100px;
 }
 
 .hero-content{
